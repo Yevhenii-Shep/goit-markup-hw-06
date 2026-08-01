@@ -37,7 +37,8 @@ img {
   height: auto;
 }
 
-.visually-hidden {
+.visually-hidden,
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -52,7 +53,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 428px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
